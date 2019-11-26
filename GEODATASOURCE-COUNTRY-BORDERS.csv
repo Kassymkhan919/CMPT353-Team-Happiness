@@ -1,6 +1,4 @@
 country_code,country_name,country_border_code,country_border_name
-AD,Andorra,FR,France
-AD,Andorra,ES,Spain
 AE,United Arab Emirates,OM,Oman
 AE,United Arab Emirates,SA,Saudi Arabia
 AF,Afghanistan,CN,China
@@ -19,18 +17,18 @@ AM,Armenia,AZ,Azerbaijan
 AM,Armenia,GE,Georgia
 AM,Armenia,IR,Iran
 AM,Armenia,TR,Turkey
-AO,Angola,CG,Congo
-AO,Angola,CD,Congo
+AO,Angola,CG,Congo (Brazzaville)
+AO,Angola,CD,Congo (Kinshasa)
 AO,Angola,NA,Namibia
 AO,Angola,ZM,Zambia
-AQ,Antarctica,,
-AR,Argentina,BO,Bolivia (Plurinational State Of)
+AQ,Antarctica,, 
+AR,Argentina,BO,Bolivia
 AR,Argentina,BR,Brazil
 AR,Argentina,CL,Chile
 AR,Argentina,PY,Paraguay
 AR,Argentina,UY,Uruguay
 AS,American Samoa,,
-AT,Austria,CZ,Czechia
+AT,Austria,CZ,Czech Republic
 AT,Austria,DE,Germany
 AT,Austria,HU,Hungary
 AT,Austria,IT,Italy
@@ -44,7 +42,7 @@ AX,Aland Islands,,
 AZ,Azerbaijan,AM,Armenia
 AZ,Azerbaijan,GE,Georgia
 AZ,Azerbaijan,IR,Iran
-AZ,Azerbaijan,RU,Russian Federation
+AZ,Azerbaijan,RU,Russia
 AZ,Azerbaijan,TR,Turkey
 BA,Bosnia and Herzegovina,HR,Croatia
 BA,Bosnia and Herzegovina,ME,Montenegro
@@ -57,7 +55,7 @@ BE,Belgium,DE,Germany
 BE,Belgium,LU,Luxembourg
 BE,Belgium,NL,Netherlands
 BF,Burkina Faso,BJ,Benin
-BF,Burkina Faso,CI,Cote d’Ivoire
+BF,Burkina Faso,CI,Ivory Coast
 BF,Burkina Faso,GH,Ghana
 BF,Burkina Faso,ML,Mali
 BF,Burkina Faso,NE,Niger
@@ -68,7 +66,7 @@ BG,Bulgaria,RO,Romania
 BG,Bulgaria,RS,Serbia
 BG,Bulgaria,TR,Turkey
 BH,Bahrain,,
-BI,Burundi,CD,Congo
+BI,Burundi,CD,Congo (Kinshasa)
 BI,Burundi,RW,Rwanda
 BI,Burundi,TZ,Tanzania
 BJ,Benin,BF,Burkina Faso
@@ -78,14 +76,14 @@ BJ,Benin,TG,Togo
 BL,Saint Barthelemy,,
 BM,Bermuda,,
 BN,Brunei Darussalam,MY,Malaysia
-BO,Bolivia (Plurinational State Of),AR,Argentina
-BO,Bolivia (Plurinational State Of),BR,Brazil
-BO,Bolivia (Plurinational State Of),CL,Chile
-BO,Bolivia (Plurinational State Of),PY,Paraguay
-BO,Bolivia (Plurinational State Of),PE,Peru
+BO,Bolivia,AR,Argentina
+BO,Bolivia,BR,Brazil
+BO,Bolivia,CL,Chile
+BO,Bolivia,PY,Paraguay
+BO,Bolivia,PE,Peru
 BQ,"Bonaire, Sint Eustatius and Saba",,
 BR,Brazil,AR,Argentina
-BR,Brazil,BO,Bolivia (Plurinational State Of)
+BR,Brazil,BO,Bolivia
 BR,Brazil,CO,Colombia
 BR,Brazil,GF,French Guiana
 BR,Brazil,GY,Guyana
@@ -105,49 +103,49 @@ BW,Botswana,ZW,Zimbabwe
 BY,Belarus,LV,Latvia
 BY,Belarus,LT,Lithuania
 BY,Belarus,PL,Poland
-BY,Belarus,RU,Russian Federation
+BY,Belarus,RU,Russia
 BY,Belarus,UA,Ukraine
 BZ,Belize,GT,Guatemala
 BZ,Belize,MX,Mexico
 CA,Canada,US,United States
 CC,Cocos (Keeling) Islands,,
-CD,Congo,AO,Angola
-CD,Congo,BI,Burundi
-CD,Congo,CF,Central African Republic
-CD,Congo,CG,Congo
-CD,Congo,RW,Rwanda
-CD,Congo,SS,South Sudan
-CD,Congo,TZ,Tanzania
-CD,Congo,UG,Uganda
-CD,Congo,ZM,Zambia
+CD,Congo (Kinshasa),AO,Angola
+CD,Congo (Kinshasa),BI,Burundi
+CD,Congo (Kinshasa),CF,Central African Republic
+CD,Congo (Kinshasa),CG,Congo (Brazzaville)
+CD,Congo (Kinshasa),RW,Rwanda
+CD,Congo (Kinshasa),SS,South Sudan
+CD,Congo (Kinshasa),TZ,Tanzania
+CD,Congo (Kinshasa),UG,Uganda
+CD,Congo (Kinshasa),ZM,Zambia
 CF,Central African Republic,CM,Cameroon
 CF,Central African Republic,TD,Chad
-CF,Central African Republic,CG,Congo
-CF,Central African Republic,CD,Congo
+CF,Central African Republic,CG,Congo (Brazzaville)
+CF,Central African Republic,CD,Congo (Kinshasa)
 CF,Central African Republic,SS,South Sudan
 CF,Central African Republic,SD,Sudan
-CG,Congo,AO,Angola
-CG,Congo,CM,Cameroon
-CG,Congo,CF,Central African Republic
-CG,Congo,CD,Congo
-CG,Congo,GA,Gabon
+CG,Congo (Brazzaville),AO,Angola
+CG,Congo (Brazzaville),CM,Cameroon
+CG,Congo (Brazzaville),CF,Central African Republic
+CG,Congo (Brazzaville),CD,Congo (Kinshasa)
+CG,Congo (Brazzaville),GA,Gabon
 CH,Switzerland,AT,Austria
 CH,Switzerland,FR,France
 CH,Switzerland,DE,Germany
 CH,Switzerland,IT,Italy
 CH,Switzerland,LI,Liechtenstein
-CI,Cote d’Ivoire,BF,Burkina Faso
-CI,Cote d’Ivoire,GH,Ghana
-CI,Cote d’Ivoire,GN,Guinea
-CI,Cote d’Ivoire,LR,Liberia
-CI,Cote d’Ivoire,ML,Mali
+CI,Ivory Coast,BF,Burkina Faso
+CI,Ivory Coast,GH,Ghana
+CI,Ivory Coast,GN,Guinea
+CI,Ivory Coast,LR,Liberia
+CI,Ivory Coast,ML,Mali
 CK,Cook Islands,,
 CL,Chile,AR,Argentina
-CL,Chile,BO,Bolivia (Plurinational State Of)
+CL,Chile,BO,Bolivia
 CL,Chile,PE,Peru
 CM,Cameroon,CF,Central African Republic
 CM,Cameroon,TD,Chad
-CM,Cameroon,CG,Congo
+CM,Cameroon,CG,Congo (Brazzaville)
 CM,Cameroon,GQ,Equatorial Guinea
 CM,Cameroon,GA,Gabon
 CM,Cameroon,NG,Nigeria
@@ -164,7 +162,7 @@ CN,China,MN,Mongolia
 CN,China,MM,Myanmar
 CN,China,NP,Nepal
 CN,China,PK,Pakistan
-CN,China,RU,Russian Federation
+CN,China,RU,Russia
 CN,China,TJ,Tajikistan
 CN,China,VN,Viet Nam
 CO,Colombia,BR,Brazil
@@ -179,13 +177,13 @@ CV,Cabo Verde,,
 CW,Curacao,,
 CX,Christmas Island,,
 CY,Cyprus,,
-CZ,Czechia,AT,Austria
-CZ,Czechia,DE,Germany
-CZ,Czechia,PL,Poland
-CZ,Czechia,SK,Slovakia
+CZ,Czech Republic,AT,Austria
+CZ,Czech Republic,DE,Germany
+CZ,Czech Republic,PL,Poland
+CZ,Czech Republic,SK,Slovakia
 DE,Germany,AT,Austria
 DE,Germany,BE,Belgium
-DE,Germany,CZ,Czechia
+DE,Germany,CZ,Czech Republic
 DE,Germany,DK,Denmark
 DE,Germany,FR,France
 DE,Germany,LU,Luxembourg
@@ -208,10 +206,10 @@ DZ,Algeria,EH,Western Sahara
 EC,Ecuador,CO,Colombia
 EC,Ecuador,PE,Peru
 EE,Estonia,LV,Latvia
-EE,Estonia,RU,Russian Federation
+EE,Estonia,RU,Russia
 EG,Egypt,IL,Israel
 EG,Egypt,LY,Libya
-EG,Egypt,PS,"Palestine, State of"
+EG,Egypt,PS,Palestine
 EG,Egypt,SD,Sudan
 EH,Western Sahara,DZ,Algeria
 EH,Western Sahara,MR,Mauritania
@@ -219,7 +217,6 @@ EH,Western Sahara,MA,Morocco
 ER,Eritrea,DJ,Djibouti
 ER,Eritrea,ET,Ethiopia
 ER,Eritrea,SD,Sudan
-ES,Spain,AD,Andorra
 ES,Spain,FR,France
 ES,Spain,GI,Gibraltar
 ES,Spain,MA,Morocco
@@ -231,13 +228,12 @@ ET,Ethiopia,SO,Somalia
 ET,Ethiopia,SS,South Sudan
 ET,Ethiopia,SD,Sudan
 FI,Finland,NO,Norway
-FI,Finland,RU,Russian Federation
+FI,Finland,RU,Russia
 FI,Finland,SE,Sweden
 FJ,Fiji,,
 FK,Falkland Islands (Malvinas),,
 FM,Micronesia (Federated States of),,
 FO,Faroe Islands,,
-FR,France,AD,Andorra
 FR,France,BE,Belgium
 FR,France,DE,Germany
 FR,France,IT,Italy
@@ -246,24 +242,24 @@ FR,France,MC,Monaco
 FR,France,ES,Spain
 FR,France,CH,Switzerland
 GA,Gabon,CM,Cameroon
-GA,Gabon,CG,Congo
+GA,Gabon,CG,Congo (Brazzaville)
 GA,Gabon,GQ,Equatorial Guinea
 GB,United Kingdom,IE,Ireland
 GD,Grenada,,
 GE,Georgia,AM,Armenia
 GE,Georgia,AZ,Azerbaijan
-GE,Georgia,RU,Russian Federation
+GE,Georgia,RU,Russia
 GE,Georgia,TR,Turkey
 GF,French Guiana,BR,Brazil
 GF,French Guiana,SR,Suriname
 GG,Guernsey,,
 GH,Ghana,BF,Burkina Faso
-GH,Ghana,CI,Cote d’Ivoire
+GH,Ghana,CI,Ivory Coast
 GH,Ghana,TG,Togo
 GI,Gibraltar,ES,Spain
 GL,Greenland,,
 GM,Gambia (the),SN,Senegal
-GN,Guinea,CI,Cote d’Ivoire
+GN,Guinea,CI,Ivory Coast
 GN,Guinea,GW,Guinea-Bissau
 GN,Guinea,LR,Liberia
 GN,Guinea,ML,Mali
@@ -312,8 +308,8 @@ IE,Ireland,GB,United Kingdom
 IL,Israel,EG,Egypt
 IL,Israel,JO,Jordan
 IL,Israel,LB,Lebanon
-IL,Israel,PS,"Palestine, State of"
-IL,Israel,SY,Syrian Arab Republic
+IL,Israel,PS,Palestine
+IL,Israel,SY,Syria
 IM,Isle of Man,,
 IN,India,BD,Bangladesh
 IN,India,BT,Bhutan
@@ -326,7 +322,7 @@ IQ,Iraq,IR,Iran
 IQ,Iraq,JO,Jordan
 IQ,Iraq,KW,Kuwait
 IQ,Iraq,SA,Saudi Arabia
-IQ,Iraq,SY,Syrian Arab Republic
+IQ,Iraq,SY,Syria
 IQ,Iraq,TR,Turkey
 IR,Iran,AF,Afghanistan
 IR,Iran,AM,Armenia
@@ -346,9 +342,9 @@ JE,Jersey,,
 JM,Jamaica,,
 JO,Jordan,IQ,Iraq
 JO,Jordan,IL,Israel
-JO,Jordan,PS,"Palestine, State of"
+JO,Jordan,PS,Palestine
 JO,Jordan,SA,Saudi Arabia
-JO,Jordan,SY,Syrian Arab Republic
+JO,Jordan,SY,Syria
 JP,Japan,,
 KE,Kenya,ET,Ethiopia
 KE,Kenya,SO,Somalia
@@ -367,14 +363,14 @@ KM,Comoros,,
 KN,Saint Kitts and Nevis,,
 KP,North Korea,CN,China
 KP,North Korea,KR,South Korea
-KP,North Korea,RU,Russian Federation
+KP,North Korea,RU,Russia
 KR,South Korea,KP,North Korea
 KW,Kuwait,IQ,Iraq
 KW,Kuwait,SA,Saudi Arabia
 KY,Cayman Islands,,
 KZ,Kazakhstan,CN,China
 KZ,Kazakhstan,KG,Kyrgyzstan
-KZ,Kazakhstan,RU,Russian Federation
+KZ,Kazakhstan,RU,Russia
 KZ,Kazakhstan,TM,Turkmenistan
 KZ,Kazakhstan,UZ,Uzbekistan
 LA,Laos,CN,China
@@ -383,26 +379,26 @@ LA,Laos,MM,Myanmar
 LA,Laos,TH,Thailand
 LA,Laos,VN,Viet Nam
 LB,Lebanon,IL,Israel
-LB,Lebanon,SY,Syrian Arab Republic
+LB,Lebanon,SY,Syria
 LC,Saint Lucia,,
 LI,Liechtenstein,AT,Austria
 LI,Liechtenstein,CH,Switzerland
 LK,Sri Lanka,,
-LR,Liberia,CI,Cote d’Ivoire
+LR,Liberia,CI,Ivory Coast
 LR,Liberia,GN,Guinea
 LR,Liberia,SL,Sierra Leone
 LS,Lesotho,ZA,South Africa
 LT,Lithuania,BY,Belarus
 LT,Lithuania,LV,Latvia
 LT,Lithuania,PL,Poland
-LT,Lithuania,RU,Russian Federation
+LT,Lithuania,RU,Russia
 LU,Luxembourg,BE,Belgium
 LU,Luxembourg,DE,Germany
 LU,Luxembourg,FR,France
 LV,Latvia,BY,Belarus
 LV,Latvia,EE,Estonia
 LV,Latvia,LT,Lithuania
-LV,Latvia,RU,Russian Federation
+LV,Latvia,RU,Russia
 LY,Libya,DZ,Algeria
 LY,Libya,TD,Chad
 LY,Libya,EG,Egypt
@@ -428,7 +424,7 @@ MK,Macedonia,GR,Greece
 MK,Macedonia,RS,Serbia
 ML,Mali,DZ,Algeria
 ML,Mali,BF,Burkina Faso
-ML,Mali,CI,Cote d’Ivoire
+ML,Mali,CI,Ivory Coast
 ML,Mali,GN,Guinea
 ML,Mali,MR,Mauritania
 ML,Mali,NE,Niger
@@ -439,7 +435,7 @@ MM,Myanmar,IN,India
 MM,Myanmar,LA,Laos
 MM,Myanmar,TH,Thailand
 MN,Mongolia,CN,China
-MN,Mongolia,RU,Russian Federation
+MN,Mongolia,RU,Russia
 MO,Macao,CN,China
 MP,Northern Mariana Islands,,
 MQ,Martinique,,
@@ -488,7 +484,7 @@ NI,Nicaragua,HN,Honduras
 NL,Netherlands,BE,Belgium
 NL,Netherlands,DE,Germany
 NO,Norway,FI,Finland
-NO,Norway,RU,Russian Federation
+NO,Norway,RU,Russia
 NO,Norway,SE,Sweden
 NP,Nepal,CN,China
 NP,Nepal,IN,India
@@ -500,7 +496,7 @@ OM,Oman,SA,Saudi Arabia
 OM,Oman,YE,Yemen
 PA,Panama,CO,Colombia
 PA,Panama,CR,Costa Rica
-PE,Peru,BO,Bolivia (Plurinational State Of)
+PE,Peru,BO,Bolivia
 PE,Peru,BR,Brazil
 PE,Peru,CL,Chile
 PE,Peru,CO,Colombia
@@ -513,22 +509,22 @@ PK,Pakistan,CN,China
 PK,Pakistan,IN,India
 PK,Pakistan,IR,Iran
 PL,Poland,BY,Belarus
-PL,Poland,CZ,Czechia
+PL,Poland,CZ,Czech Republic
 PL,Poland,DE,Germany
 PL,Poland,LT,Lithuania
-PL,Poland,RU,Russian Federation
+PL,Poland,RU,Russia
 PL,Poland,SK,Slovakia
 PL,Poland,UA,Ukraine
 PM,Saint Pierre and Miquelon,,
 PN,Pitcairn,,
 PR,Puerto Rico,,
-PS,"Palestine, State of",EG,Egypt
-PS,"Palestine, State of",IL,Israel
-PS,"Palestine, State of",JO,Jordan
+PS,Palestine,EG,Egypt
+PS,Palestine,IL,Israel
+PS,Palestine,JO,Jordan
 PT,Portugal,ES,Spain
 PW,Palau,,
 PY,Paraguay,AR,Argentina
-PY,Paraguay,BO,Bolivia (Plurinational State Of)
+PY,Paraguay,BO,Bolivia
 PY,Paraguay,BR,Brazil
 QA,Qatar,SA,Saudi Arabia
 RE,Reunion,,
@@ -545,22 +541,22 @@ RS,Serbia,HU,Hungary
 RS,Serbia,ME,Montenegro
 RS,Serbia,MK,Macedonia
 RS,Serbia,RO,Romania
-RU,Russian Federation,AZ,Azerbaijan
-RU,Russian Federation,BY,Belarus
-RU,Russian Federation,CN,China
-RU,Russian Federation,EE,Estonia
-RU,Russian Federation,FI,Finland
-RU,Russian Federation,GE,Georgia
-RU,Russian Federation,KZ,Kazakhstan
-RU,Russian Federation,KP,North Korea
-RU,Russian Federation,LV,Latvia
-RU,Russian Federation,LT,Lithuania
-RU,Russian Federation,MN,Mongolia
-RU,Russian Federation,NO,Norway
-RU,Russian Federation,PL,Poland
-RU,Russian Federation,UA,Ukraine
+RU,Russia,AZ,Azerbaijan
+RU,Russia,BY,Belarus
+RU,Russia,CN,China
+RU,Russia,EE,Estonia
+RU,Russia,FI,Finland
+RU,Russia,GE,Georgia
+RU,Russia,KZ,Kazakhstan
+RU,Russia,KP,North Korea
+RU,Russia,LV,Latvia
+RU,Russia,LT,Lithuania
+RU,Russia,MN,Mongolia
+RU,Russia,NO,Norway
+RU,Russia,PL,Poland
+RU,Russia,UA,Ukraine
 RW,Rwanda,BI,Burundi
-RW,Rwanda,CD,Congo
+RW,Rwanda,CD,Congo (Kinshasa)
 RW,Rwanda,TZ,Tanzania
 RW,Rwanda,UG,Uganda
 SA,Saudi Arabia,IQ,Iraq
@@ -589,7 +585,7 @@ SI,Slovenia,HU,Hungary
 SI,Slovenia,IT,Italy
 SJ,Svalbard and Jan Mayen,,
 SK,Slovakia,AT,Austria
-SK,Slovakia,CZ,Czechia
+SK,Slovakia,CZ,Czech Republic
 SK,Slovakia,HU,Hungary
 SK,Slovakia,PL,Poland
 SK,Slovakia,UA,Ukraine
@@ -608,7 +604,7 @@ SR,Suriname,BR,Brazil
 SR,Suriname,GF,French Guiana
 SR,Suriname,GY,Guyana
 SS,South Sudan,CF,Central African Republic
-SS,South Sudan,CD,Congo
+SS,South Sudan,CD,Congo (Kinshasa)
 SS,South Sudan,ET,Ethiopia
 SS,South Sudan,KE,Kenya
 SS,South Sudan,SD,Sudan
@@ -617,11 +613,11 @@ ST,Sao Tome and Principe,,
 SV,El Salvador,GT,Guatemala
 SV,El Salvador,HN,Honduras
 SX,Sint Maarten (Dutch part),MF,Saint Martin (French part)
-SY,Syrian Arab Republic,IQ,Iraq
-SY,Syrian Arab Republic,IL,Israel
-SY,Syrian Arab Republic,JO,Jordan
-SY,Syrian Arab Republic,LB,Lebanon
-SY,Syrian Arab Republic,TR,Turkey
+SY,Syria,IQ,Iraq
+SY,Syria,IL,Israel
+SY,Syria,JO,Jordan
+SY,Syria,LB,Lebanon
+SY,Syria,TR,Turkey
 SZ,Swaziland,MZ,Mozambique
 SZ,Swaziland,ZA,South Africa
 TC,Turks and Caicos Islands,,
@@ -659,12 +655,12 @@ TR,Turkey,GE,Georgia
 TR,Turkey,GR,Greece
 TR,Turkey,IR,Iran
 TR,Turkey,IQ,Iraq
-TR,Turkey,SY,Syrian Arab Republic
+TR,Turkey,SY,Syria
 TT,Trinidad and Tobago,,
 TV,Tuvalu,,
-TW,Taiwan (Province of China),,
+TW,Taiwan,,
 TZ,Tanzania,BI,Burundi
-TZ,Tanzania,CD,Congo
+TZ,Tanzania,CD,Congo (Kinshasa)
 TZ,Tanzania,KE,Kenya
 TZ,Tanzania,MW,Malawi
 TZ,Tanzania,MZ,Mozambique
@@ -676,9 +672,9 @@ UA,Ukraine,HU,Hungary
 UA,Ukraine,MD,Moldova
 UA,Ukraine,PL,Poland
 UA,Ukraine,RO,Romania
-UA,Ukraine,RU,Russian Federation
+UA,Ukraine,RU,Russia
 UA,Ukraine,SK,Slovakia
-UG,Uganda,CD,Congo
+UG,Uganda,CD,Congo (Kinshasa)
 UG,Uganda,KE,Kenya
 UG,Uganda,RW,Rwanda
 UG,Uganda,SS,South Sudan
@@ -717,7 +713,7 @@ ZA,South Africa,SZ,Swaziland
 ZA,South Africa,ZW,Zimbabwe
 ZM,Zambia,AO,Angola
 ZM,Zambia,BW,Botswana
-ZM,Zambia,CD,Congo
+ZM,Zambia,CD,Congo (Kinshasa)
 ZM,Zambia,MW,Malawi
 ZM,Zambia,MZ,Mozambique
 ZM,Zambia,NA,Namibia
