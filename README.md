@@ -1,10 +1,25 @@
 # CMPT353-Team-Happiness
 
-## Overview and Objective
-The purpose of this project is to analyse data and see how happiness can be determined from neighbouring countries, the years, as well as what kind of external factors influence it. 
+## Overview
+Team Happiness is a data science project that explores the happiness levels of various countries.
+
+## Objectives
+This project strives to analyze data to: 
+* determine how neighbouring countries may influence happiness levels in a country
+* predict the future happiness level of a country from previous years' data
+* determine the external factors that influence the happiness level of a country 
 
 ## Methodology
-Methodology employed includes python, pandas, scikit learn, averaging, machine learning (either by looking at years to predict happiness for the duture or neighbours' correlation to country's happiness) and twitter sentiment analysis.
+Data analysis inolved:
+* aggregration of data through averaging 
+* machine learning 
+  * to predict happiness levels in future years
+  * to predict a country's happiness with neighbouring countries
+* twitter sentiment analysis
 
-## How to run files
-everything is loaded in, simply run file
+## Tools Used
+* Python
+
+### Libraries
+* pandas 
+* scikit learn
