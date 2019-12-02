@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[29]:
 
 
 import numpy as np
@@ -9,49 +9,34 @@ import pandas as pd
 import difflib as dl
 
 
-# In[2]:
+# In[30]:
 
 
-borders = pd.read_csv('GEODATASOURCE-COUNTRY-BORDERS.csv')
-data15 = pd.read_csv('2015.csv')
-data16 = pd.read_csv('2016.csv')
-data17 = pd.read_csv('2017.csv')
-data17 = data17.rename(columns = {'Happiness.Score': 'Happiness Score'})
-
-
-# In[3]:
-
-
-borders = borders[['country_name', 'country_border_name']]
-borders = borders[borders['country_border_name'].notnull()]
-data15 = data15[['Country', 'Happiness Score']]
-data16 = data16[['Country', 'Happiness Score']]
-data17 = data17[['Country', 'Happiness Score']]
-
-
-# In[4]:
-
-
-names = data15['Country'].values
+new_names = pd.read_csv('names.csv').values[:,0]
 def nameReplace(oldName):
-    newName = dl.get_close_matches(oldName[:10], names)
+    newName = dl.get_close_matches(oldName, new_names)
     if not newName:
         return ''
     return newName[0]
 
 
-# In[5]:
+# In[31]:
 
 
+borders = pd.read_csv('borders.csv')
 borders['country_name'] = borders['country_name'].apply(nameReplace)
 borders['country_border_name'] = borders['country_border_name'].apply(nameReplace)
 borders = borders[borders['country_name'] != '']
 borders = borders[borders['country_border_name'] != '']
+borders.to_csv('border-names.csv')
 
 
-# In[6]:
+# In[32]:
 
 
+data15 = pd.read_csv('2015-happiness-only.csv')
+data16 = pd.read_csv('2016-happiness-only.csv')
+data17 = pd.read_csv('2017-happiness-only.csv')
 borders = borders.merge(data15, how='left', left_on='country_border_name', right_on='Country').rename(columns = {'Happiness Score': 'Happiness Score 2015'})
 borders = borders.drop(['Country'], axis=1)
 borders = borders.merge(data16, how='left', left_on='country_border_name', right_on='Country').rename(columns = {'Happiness Score': 'Happiness Score 2016'})
@@ -62,52 +47,10 @@ borders = borders.rename(columns = {'country_name': 'Country Name',
                                     'country_border_name': 'Country Border Name'})
 
 
-# In[7]:
+# In[33]:
 
 
 borders.to_csv('Three-Year-Data.csv')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
 
 # In[ ]:
